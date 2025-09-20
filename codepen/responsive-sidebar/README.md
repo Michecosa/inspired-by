@@ -4,7 +4,9 @@ A simple responsive sidebar with a **working toggle** built using a hidden `chec
 The menu can be **expanded** or **collapsed**, showing only the icons when closed.  
 This project was built as a learning exercise with **semantic HTML, Flexbox, and CSS variables**.
 
----
+🌐 [Check it out!](https://michecosa.github.io/inspired-by/codepen/responsive-sidebar)
+
+<br>
 
 ## ✨ Features
 - Sidebar toggle using a hidden checkbox.
