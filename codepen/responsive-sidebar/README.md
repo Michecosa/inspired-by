@@ -16,14 +16,14 @@ This project was built as a learning exercise with **semantic HTML, Flexbox, and
 - Hover state for menu items.
 - Icons from [Font Awesome](https://fontawesome.com/).
 
----
+<br>
 
 ## 🛠️ Technologies
 - **HTML5** (semantic elements: `nav`, `ul`, `li`, `label`)
 - **CSS3** (CSS variables, Flexbox, transitions)
 - **Font Awesome** (icons)
 
----
+<br>
 
 ## 🔗 Inspiration
 This project is a **simplified version** inspired by  
