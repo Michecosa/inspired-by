@@ -73,13 +73,10 @@ h2 {
 
 /* RESPONSIVE DESIGN */
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 480px){
   img, .user {
     width: 100%;
   }
 
   img {object-position: right;}
-  h1 {font-size: 2rem;}
-  h2 {font-size: 1rem;}
-  
 }
