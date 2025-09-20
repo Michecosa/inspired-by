@@ -8,6 +8,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: Inter;
+  color: var(--c);
 }
 
 .container {
@@ -30,11 +33,12 @@ img {
 }
 
 .user {
-  position:absolute;
-  bottom: -1px; left: 0;
-  padding: 2.5rem;
+  position: absolute;
+  bottom: -0.125rem;
+  left: 0;
+  padding: 2rem;
   background-color: var(--bg);
-  border-radius: 0 var(--border-radius);
+  border-radius: 0 var(--border-radius) 0 var(--border-radius);
 
   &:after, 
   &:before {
@@ -59,15 +63,7 @@ img {
 
 
 /* Text */
-
-* {
-  font-family: Inter;
-  color: var(--c);
-}
-
-h1 {
-  font-size: 2rem;
-}
+h1 {font-size: 2rem;}
 
 h2 {
   font-size: 1rem;
