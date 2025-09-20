@@ -76,26 +76,28 @@ h2 {
 @media screen and (max-width: 480px){
   body {
     width: 100%;
-    min-height: 83vh;
+    min-width: 14rem;
+    min-height: 100vh;
   }
 
   .container {
-    width: 95%;
+    width: 89%;
     margin: 0 auto;
   }
 
   img, .user {width: 100%;}
   
   .user {
-    &:after {
-      clip-path: path("M -1 0 V 40 H 30 Q 0 35, 0 0 Z");
-    }
+    border-top-left-radius: var(--border-radius);
 
-    &:before {right:0;}
+    &:after,
+    &:before {
+     content: none;
+    }
   }
   
   img {
-    height: 80vh;
+    height: 95vh;
     object-position: right;
   }
 }
