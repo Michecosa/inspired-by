@@ -83,7 +83,13 @@ h2 {
 
   img, .user {width: 100%;}
   
-  .user:before {right:0;}
+  .user {
+    &:after {
+      clip-path: path("M -1 0 V 40 H 30 Q 0 35, 0 0 Z");
+    }
+
+    &:before {right:0;}
+  }
   
   img {
     height: 80vh;
