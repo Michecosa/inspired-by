@@ -1,7 +1,7 @@
 :root {
   --border-radius: 2.5rem;
-  --bg: #161616;
-  --c: #FCFCFE;
+  --c: #191919;
+  --bg: #FCFCFE;
 }
 
 * {
@@ -32,7 +32,7 @@ img {
 .user {
   position:absolute;
   bottom: -1px; left: 0;
-  padding: 3rem;
+  padding: 2.5rem;
   background-color: var(--bg);
   border-radius: 0 var(--border-radius);
 
@@ -42,8 +42,8 @@ img {
     content:"";
     width: var(--border-radius);
     aspect-ratio: 1;
-    background: var(--bg);
-    clip-path: path("M -1 0 V 40 H 30 Q 0 30, 0 0 Z");
+    background-color: var(--bg);
+    clip-path: path("M -1 0 V 40 H 40 Q 0 35, 0 0 Z");
   }
 
   &:after {
