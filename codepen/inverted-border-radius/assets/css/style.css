@@ -74,7 +74,10 @@ h2 {
 /* RESPONSIVE DESIGN */
 
 @media screen and (max-width: 480px){
-  body {width: 100%;}
+  body {
+    width: 100%;
+    min-height: 83vh;
+  }
 
   .container {
     width: 95%;
