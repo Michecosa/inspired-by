@@ -24,16 +24,16 @@ body{
 .sidebar{
   display:flex;
   flex-direction:column;
-  gap:12px;
+  gap:.75rem;
 
   position:fixed;
   left:0; top:0;
   z-index:10;
   
   height:100%;
-  padding:12px;
+  padding:.75rem;
   background:var(--bg);
-  box-shadow:2px 0 8px rgba(0,0,0,0.08);
+  box-shadow:0.125rem 0 .5rem rgba(0,0,0,0.08);
 }
 
 /* hidden checkbox */
@@ -47,7 +47,7 @@ body{
 
   cursor:pointer;
   padding:.5rem;
-  border-radius:6px;
+  border-radius:.375rem;
   user-select:none;
   font-size:1.15rem;
 }
@@ -94,7 +94,7 @@ body{
   gap:.75rem;
 
   padding:.45rem;
-  border-radius:6px;
+  border-radius:.375rem;
   text-decoration:none;
   color:#222;
   height:var(--item-h);
