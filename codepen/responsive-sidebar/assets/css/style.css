@@ -100,8 +100,13 @@ body{
   height:var(--item-h);
   width:100%;
 }
+
 .menu a:hover { 
   background:var(--accent); 
+
+  i {
+    color:rgb(68, 161, 215);
+  }
 }
 
 /* icone */
