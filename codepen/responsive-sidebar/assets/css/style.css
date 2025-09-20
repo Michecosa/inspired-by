@@ -52,6 +52,15 @@ body{
   font-size:1.15rem;
 }
 
+.sidebar-toggle:not(:checked) ~ .toggle-btn .fa-xmark {
+  display: none;
+}
+
+.sidebar-toggle:is(:checked) ~ .toggle-btn .fa-bars {
+  display: none;
+}
+
+
 /* nav + menu — consolidati */
 .sidebar-nav,
 .menu{
