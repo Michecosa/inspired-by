@@ -16,7 +16,10 @@ body {
 
 .login-form {
   background-color: rgba(239, 230, 230, 0.05);
+  backdrop-filter: blur(0.25rem);
+
   border: 20px solid rgba(252, 252, 252, 0.4);
+  border-radius: 1rem;
 
   width: 30rem;
   padding: 3rem;
