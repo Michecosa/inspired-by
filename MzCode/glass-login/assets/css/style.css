@@ -33,23 +33,24 @@ body {
   text-align: center;
 }
 
-.login-form .user-input {
-  position: relative;
-}
 
 .user {
   width: 100%;
   font-size: 1rem;
-
+  
   outline: none;
   background-color: transparent;
   border:none;
   border-bottom: 1px solid #fff;
-
+  
   margin-bottom: 1rem;
   padding: 0.8rem;
   padding-right: 2.5rem;
 }
+
+.user-input {margin-top: 1.5rem;}
+
+.user-input input {color: #fff;}
 
 .user-input label {
   transition: 0.2s ease;
@@ -62,9 +63,24 @@ body {
   top: 0;
   font-size: 0.8rem;
   color: #ffffff92;
-
+  
   pointer-events: none;
 }
+
+
+
+.register {
+  margin: 1rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.register .reg {
+  color: inherit;
+  font-weight: bolder; 
+  text-decoration: none; 
+}
+
 
 
 /* POSITION mechanics */
@@ -75,6 +91,10 @@ body {
   left: 50%;
 }
 
+.login-form .user-input {
+  position: relative;
+}
+
 .user-input i {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -82,7 +102,6 @@ body {
   top: 40%;
 }
 
-.user-input input {color: #fff;}
 
 .user-input label {
   position: absolute;
