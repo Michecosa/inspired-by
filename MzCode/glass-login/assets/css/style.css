@@ -13,3 +13,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.login-form {
+  background-color: rgba(239, 230, 230, 0.05);
+  border: 20px solid rgba(252, 252, 252, 0.4);
+}
