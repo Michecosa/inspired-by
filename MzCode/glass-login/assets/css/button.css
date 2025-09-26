@@ -13,6 +13,7 @@
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   overflow: hidden;
+  transition: 0.2s ease;
 
   margin-top: 1rem;
   padding: 1rem;
