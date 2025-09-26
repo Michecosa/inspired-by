@@ -52,6 +52,17 @@ body {
 }
 
 
+.login-form .user-input .user:focus ~ label,
+.login-form .user-input .user:valid ~ label {
+  top: 0;
+  font-size: 0.8rem;
+  color: #ffffff92;
+
+  pointer-events: none;
+  transition: 0.5s ease;
+}
+
+
 /* POSITION mechanics */
 .login-form {
   position: absolute;
