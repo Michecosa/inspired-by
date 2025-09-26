@@ -57,6 +57,7 @@ body {
 
 
 .login-form .user-input .user:focus ~ label,
+.login-form .user-input .user:hover ~ label,
 .login-form .user-input .user:valid ~ label {
   top: 0;
   font-size: 0.8rem;
