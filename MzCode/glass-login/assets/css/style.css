@@ -81,6 +81,8 @@ body {
   top: 40%;
 }
 
+.user-input input {color: #fff;}
+
 .user-input label {
   position: absolute;
   transform: translate(0, -50%);
