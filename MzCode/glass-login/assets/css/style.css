@@ -58,3 +58,10 @@ body {
   top: 50%;
   left: 50%;
 }
+
+.user-input i {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  right: 0;
+  top: 30%;
+}
