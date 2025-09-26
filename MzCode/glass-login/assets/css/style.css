@@ -12,11 +12,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
+  color: #fff;
 }
 
 .login-form {
   background-color: rgba(230, 230, 230, 0.219);
-  backdrop-filter: blur(0.25rem);
+  backdrop-filter: blur(0.5rem);
 
   border: 2px solid rgba(255, 255, 255, 0.4);
   border-radius: 1rem;
@@ -28,8 +30,24 @@ body {
 
 .login-form h1 {
   margin: 0 0 2rem;
-  color: #fff;
   text-align: center;
+}
+
+.login-form .user-input {
+  position: relative;
+}
+
+.user {
+  width: 100%;
+  font-size: 1rem;
+
+  outline: none;
+  background-color: transparent;
+  border:none;
+  border-bottom: 1px solid #fff;
+
+  margin-bottom: 1rem;
+  padding: 0.8rem;
 }
 
 
