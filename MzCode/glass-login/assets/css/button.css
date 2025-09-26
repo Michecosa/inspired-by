@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-form form .send {
+  border: 2px solid transparent;
+  border-radius: 2rem;
+  
+  width: 100%;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  overflow: hidden;
+
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.login-form form .send:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
